@@ -22,6 +22,14 @@ function AIChatBox() {
       setMessages((prev) => [...prev, reply]);
     }, 800);
 
+    setTimeout(() => {
+      const reply = {
+        sender: "bot",
+        text: "Just take a deep breath! first",
+      };
+      setMessages((prev) => [...prev, reply]);
+    }, 800);
+
     setInput("");
   };
 

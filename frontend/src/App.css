@@ -1,6 +1,6 @@
 body {
   font-family: "Inter", sans-serif;
-  background-color: #f6fbff;
+  background-color: #F5F7FA;
   color: #333;
   margin: 0;
 }
@@ -17,17 +17,18 @@ a {
 }
 
 .navbar {
-  background-color: #375a7f;
+  background-color: #5d8ec3;
 }
 
 .navbar-brand,
 .nav-link {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #fff !important;
   font-weight: 600;
 }
 
 footer {
-  background-color: #375a7f;
+  background-color: #5d8ec3;
   color: #fff;
   padding: 1rem;
   text-align: center;
@@ -36,5 +37,6 @@ footer {
 
 .card {
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
