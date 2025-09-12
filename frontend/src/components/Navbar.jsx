@@ -6,9 +6,8 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          MindWell
-        </Link>
-
+          Connect&Evolve
+        </Link> 
         <button
           className="navbar-toggler"
           type="button"

@@ -6,27 +6,30 @@ function Home() {
     <div className="home">
       {/* Hero Section */}
       <section className="text-center py-5">
-        <h1 className="fw-bold mb-3">Welcome to MindWell</h1>
+        <h1 className="fw-bold mb-3">Welcome to Connect&Evolve</h1>
         <p className="lead mb-4">
-          Your Digital Mental Health & Psychological Support System for Students
+          Your Digital Mental Health & Psychological Support System
         </p>
         <Link to="/screening" className="btn btn-primary btn-lg">
-          Start Screening
+          Get yourself scanned here!
         </Link>
       </section>
 
       {/* Features Section */}
       <section className="row g-4 my-5">
         <div className="col-md-4">
-          <div className="card h-100 p-3 text-center">
-            <span className="material-icons fs-1 text-primary">psychology</span>
-            <h5 className="mt-3">AI First-Aid Support</h5>
-            <p>Interactive chatbot for instant mental health support.</p>
+          <div className="card h-100 p-3 text-center home-card">
+            <a href="http://localhost:5173/chat" style={{textDecoration: "none"}}>
+            <span className="material-icons fs-1 text-primary">chat_bubble</span>
+            <h5 className="mt-3">AI Support</h5>
+            <p>Interactive chatbot for instant support.</p>
+            </a>
           </div>
         </div>
+        
 
         <div className="col-md-4">
-          <div className="card h-100 p-3 text-center">
+          <div className="card h-100 p-3 text-center home-card">
             <span className="material-icons fs-1 text-success">event</span>
             <h5 className="mt-3">Confidential Booking</h5>
             <p>Book private sessions with campus counselors securely.</p>
@@ -34,8 +37,8 @@ function Home() {
         </div>
 
         <div className="col-md-4">
-          <div className="card h-100 p-3 text-center">
-            <span className="material-icons fs-1 text-info">menu_book</span>
+          <div className="card h-100 p-3 text-center home-card">
+            <span className="material-icons fs-1 text-info">article</span>
             <h5 className="mt-3">Resource Hub</h5>
             <p>Access relaxation audios, guides, and educational content.</p>
           </div>
@@ -46,8 +49,7 @@ function Home() {
       <section className="text-center my-5">
         <h3 className="fw-bold mb-3">Need Immediate Help?</h3>
         <p>
-          Reach out to your college counselor or national mental health
-          helpline.
+          Reach out to your college counselor.
         </p>
         <a href="tel:1800-599-0019" className="btn btn-danger btn-lg">
           Call Helpline
