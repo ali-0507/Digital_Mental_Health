@@ -1,26 +1,33 @@
 // import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
-      <div className="container">
-        <Link className="navbar-brand" to="/">
+      
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
+            <img src="./src/assets/logo.svg" alt="Logo" width="40" height="50" className="d-flex align-text-center"/>
+          </a>
+
+        <Link className="navbar-brand fs-5 logoName" to="/">
           Connect&Evolve
         </Link> 
+
+        {/* for hamburger icon */}
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
+          data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="nav nav-underline ms-auto fs-5">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">
+              <NavLink className="nav-link " to="/">
                 Home
               </NavLink>
             </li>

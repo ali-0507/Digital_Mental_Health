@@ -8,9 +8,7 @@
   transition:background-color 0.4s ease-in-out;
 }
 
-.socialm i:hover{
-  color:#fff !important;
-}
-.social-i{
-    color:rgb(200, 222, 242) !important;
+
+.highlight{
+  color:#008080;
 }

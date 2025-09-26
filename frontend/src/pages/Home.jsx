@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
       {/* Hero Section */}
       <section className="text-center py-5">
-        <h1 className="fw-bold mb-3">Welcome to Connect&Evolve</h1>
+        <h1 className="fw-bold mb-3"><i>Welcome to <span className="highlight">Connect&Evolve</span></i></h1>
         <p className="lead mb-4">
           Your Digital Mental Health & Psychological Support System
         </p>

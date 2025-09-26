@@ -17,23 +17,24 @@ a {
 }
 
 .navbar {
-  background-color: #5d8ec3;
+  background:linear-gradient(to right,rgb(136, 190, 240),rgb(73, 140, 240));
 }
 
 .navbar-brand,
 .nav-link {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #fff !important;
+  font-family:"Inter", sans-serif;
+  color:#0E3386;
   font-weight: 600;
 }
 
 footer {
-  background-color: #5d8ec3;
   color: #fff;
   padding: 1rem;
   text-align: center;
   margin-top: auto;
-}
+  position: relative;
+  overflow: hidden;
+} 
 
 .card {
   border-radius: 12px;
