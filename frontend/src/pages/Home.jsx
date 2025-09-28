@@ -30,14 +30,41 @@ function Home() {
 
         <div className="col-md-4">
           <div className="card h-100 p-3 text-center home-card">
-            <span className="material-icons fs-1 text-success">event</span>
+            <a href="http://localhost:5173/booking" style={{textDecoration: "none"}}>
+            <span className="material-icons fs-1 text-danger">event</span>
             <h5 className="mt-3">Confidential Booking</h5>
             <p>Book private sessions with campus counselors securely.</p>
+            </a>
           </div>
         </div>
 
         <div className="col-md-4">
           <div className="card h-100 p-3 text-center home-card">
+            <a href="http://localhost:5173/resources" style={{textDecoration: "none"}}>
+            <span className="material-icons fs-1 text-info">menu_book</span>
+            <h5 className="mt-3">Resource Hub</h5>
+            <p>Access relaxation audios, guides, and educational content.</p>
+            </a>
+          </div>
+        </div>
+
+        <div className="col-md-6">
+          <div className="card h-100 p-3 text-center home-card">
+          <a href="http://localhost:5173/peer-support" style={{textDecoration: "none"}}>
+            <span className="material-icons fs-1 text-success">groups</span>
+            <h5 className="mt-3">Peer Support</h5>
+            <p>Moderated forum with trained volunteers.</p>
+            </a>
+          </div>
+        </div>                                                                
+
+        <div className="col-md-6">
+          <div className="card h-100 p-3 text-center home-card">
+            <a href="http://localhost:5173/admin" style={{textDecoration: "none"}}>
+            <span className="material-icons fs-1 text-warning">analytics</span>
+            <h5 className="mt-3">Admin Dashboard</h5>
+            <p>Real-time insights for administrators (anonymized).</p>
+            </a>
             <span className="material-icons fs-1 text-info">article</span>
             <h5 className="mt-3">Resource Hub</h5>
             <p>Access relaxation audios, guides, and educational content.</p>

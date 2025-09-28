@@ -11,6 +11,8 @@ import Screening from "./pages/Screening";
 import AIChat from "./pages/AIChat";
 import Booking from "./pages/Booking";
 import Resources from "./pages/Resources";
+import PeerSupports from "./pages/PeerSupports";
+import AdminsDashboard from "./pages/AdminDashboard";
 import PeerSupport from "./pages/PeerSupport";
 import AdminDashboard from "./pages/AdminDashboard";
 
@@ -26,6 +28,8 @@ function App() {
           <Route path="/chat" element={<AIChat />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/peer-support" element={<PeerSupports />} />
+          <Route path="/admin" element={<AdminsDashboard />} />
           <Route path="/peer-support" element={<PeerSupport />} />
           <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
