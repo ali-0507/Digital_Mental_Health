@@ -13,6 +13,8 @@ import Booking from "./pages/Booking";
 import Resources from "./pages/Resources";
 import PeerSupports from "./pages/PeerSupports";
 import AdminsDashboard from "./pages/AdminDashboard";
+import PeerSupport from "./pages/PeerSupport";
+import AdminDashboard from "./pages/AdminDashboard";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/peer-support" element={<PeerSupports />} />
           <Route path="/admin" element={<AdminsDashboard />} />
+          <Route path="/peer-support" element={<PeerSupport />} />
+          <Route path="/admin" element={<AdminDashboard />} />
         </Routes>
       </main>
 
@@ -37,3 +41,4 @@ function App() {
 }
 
 export default App;
+

@@ -65,6 +65,9 @@ function Home() {
             <h5 className="mt-3">Admin Dashboard</h5>
             <p>Real-time insights for administrators (anonymized).</p>
             </a>
+            <span className="material-icons fs-1 text-info">article</span>
+            <h5 className="mt-3">Resource Hub</h5>
+            <p>Access relaxation audios, guides, and educational content.</p>
           </div>
         </div>
       </section>
